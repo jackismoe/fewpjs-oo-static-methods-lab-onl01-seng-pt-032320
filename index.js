@@ -11,6 +11,7 @@ class Formatter {
     let ex = ['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from']
     let res = []
     let wordArray = string.split(' ')
+    
     for (let n in wordArray) {
       if (n == 0) {
         res.push(this.capitalize(wordArray[n]))
